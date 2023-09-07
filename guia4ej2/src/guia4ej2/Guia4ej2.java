@@ -74,3 +74,27 @@ public class Guia4ej2 {
     }
     
 }
+/*Scanner Datos = new Scanner(System.in);
+    
+    LocalDate fecha = LocalDate.of(1994,Month.SEPTEMBER,28); 
+        
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+            Connection conexion = DriverManager.getConnection("jdbc:mariadb://localhost:3306/univisidadulp","root", "");
+         
+           /* String sql = " INSERT INTO alumno ( dni, apellido, nombre, fechaNacimiento , estado)"
+            + " VALUES (?,?,?,?,?)";
+PreparedStatement ps = conexion.prepareStatement(sql);
+
+            for(int i = 0 ; i < 3 ; i++){
+                System.out.println("----------------------------------");
+                System.out.println("Ingrese el dni");
+                ps.setInt(1, Datos.nextInt());
+                System.out.println("Apellido");
+                ps.setString(2, Datos.next());
+                System.out.println("Nombre");
+                ps.setString(3, Datos.next());
+                ps.setDate(4, Date.valueOf(fecha));
+                ps.setBoolean(5, true);
+                 ps.executeUpdate();
+            }*/
